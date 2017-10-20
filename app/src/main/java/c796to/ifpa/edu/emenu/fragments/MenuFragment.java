@@ -8,12 +8,9 @@ import android.widget.TextView;
 
 
 import c796to.ifpa.edu.emenu.R;
-import c796to.ifpa.edu.emenu.domain.Menu;
-
 
 public class MenuFragment extends BaseFragment{
     private int tipo;
-
 
     //Método para instanciar o fragmento pelo tipo de opção
 
