@@ -54,7 +54,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenusViewHolde
         holder.txtNome.setText(m.nome);
         holder.txtDescricao.setText(m.descricao);
         holder.txtValor.setText(m.valor);
-//        holder.progress.setVisibility(View.VISIBLE);
+        holder.progress.setVisibility(View.VISIBLE);
         //Fazendo o download da imagem
 
         //  Picasso.with(context).load(m.urlFoto).fit().into(holder.img, new com.squareup.picasso.Callback()
@@ -93,7 +93,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenusViewHolde
             txtDescricao = (TextView) itemView.findViewById(R.id.tDescricao);
             txtValor = (TextView) itemView.findViewById(R.id.tValor);
             img = (ImageView) itemView.findViewById(R.id.img);
-            //progress = (ProgressBar) itemView.findViewById(R.id.progressImg);
+            progress = (ProgressBar) itemView.findViewById(R.id.progressImg);
             cardView = (CardView) itemView.findViewById(R.id.card_view);
         }
     }

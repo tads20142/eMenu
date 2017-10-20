@@ -14,7 +14,7 @@ public class MenuService {
         List<Menu> menus = new ArrayList<Menu>();
 
 
-        /*Menu menuRefri = new Menu();
+        Menu menuRefri = new Menu();
         menuRefri.nome = "Nome: " + tipoString;
         menuRefri.descricao = "1L";
         menuRefri.valor = "R$ 5,00";
@@ -24,16 +24,16 @@ public class MenuService {
         menuPizza.nome = "Nome: " + tipoString;
         menuPizza.descricao = "Tamanho família, 4 Queijos";
         menuPizza.valor = "R$ 35,00";
-       menus.add(menuPizza);*/
+       menus.add(menuPizza);
 
-        for (int i = 0; i < 20; i++)
+       /* for (int i = 0; i < 20; i++)
         {
             Menu m = new Menu();
             m.nome = "Menu " + tipoString + ": " + i; //Nome de acordo com o tipo
             m.descricao = "Descrição " + i;
             m.valor = "Valor: R$ " + i +",00";
             menus.add(m);
-        }
+        }*/
 
         return menus;
     }

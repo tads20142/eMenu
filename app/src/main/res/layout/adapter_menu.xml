@@ -17,8 +17,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-
-
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -34,7 +32,7 @@
                 android:layout_marginTop="6dp"
                 android:background="@drawable/logo_emenu"/>
 
-                <!-- Barra de progresso para carregar a foto
+                <!-- Barra de progresso para carregar a foto -->
                 <ProgressBar
                     android:id="@+id/progressImg"
                     android:layout_width="wrap_content"
@@ -43,7 +41,7 @@
                     android:layout_gravity="center|center_horizontal"
                     android:layout_marginRight="6dp"
                     android:gravity="center|center_vertical"
-                    android:visibility="invisible"/> -->
+                    android:visibility="invisible"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
