@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Emenu</string>
+    <string name="action_about">Sobre</string>
+
+    <string name="bebidas">Bebidas</string>
+    <string name="refrigerantes">Refrigerantes</string>
+    <string name="cervejas">Cervejas</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="massas">Massas</string>
+    <string name="carnes">Carnes</string>
+
+    <string name="nav_drawer_username">IFPA</string>
+    <string name="nav_drawer_email">Tads20142</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

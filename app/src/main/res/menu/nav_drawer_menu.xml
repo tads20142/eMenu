@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <!-- Lista com os refrigerantes -->
+        <item
+            android:id="@+id/nav_item_refrigerantes"
+            android:checked="true"
+            android:title="@string/refrigerantes" />
+
+        <!-- Lista com as cervejas -->
+        <item
+            android:id="@+id/nav_item_cervejas"
+            android:checked="true"
+            android:title="@string/cervejas" />
+
+        <!-- Lista com as pizzas -->
+        <item
+            android:id="@+id/nav_item_pizzas"
+            android:checked="true"
+            android:title="@string/pizzas" />
+
+        <!-- Lista com as massas -->
+        <item
+            android:id="@+id/nav_item_massas"
+            android:checked="true"
+            android:title="@string/massas" />
+
+        <!-- Lista com as Carnes -->
+        <item
+            android:id="@+id/nav_item_carnes"
+            android:checked="true"
+            android:title="@string/carnes" />
+
+
+    </group>
+</menu>
