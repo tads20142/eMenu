@@ -11,8 +11,8 @@
     <dimen name="foto_menu_height">110dp</dimen>
 
     <!-- Largura/Altura da img do menu -->
-    <dimen name="img_menu_adapter_width">100dp</dimen>
-    <dimen name="img_menu_adapter_height">100dp</dimen>
+    <dimen name="img_menu_adapter_width">200dp</dimen>
+    <dimen name="img_menu_adapter_height">200dp</dimen>
     <dimen name="img_menu_width">300dp</dimen>
     <dimen name="img_menu_height">128dp</dimen>
     <dimen name="app_bar_height">180dp</dimen>
