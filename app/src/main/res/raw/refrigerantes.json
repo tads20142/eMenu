@@ -1,0 +1,21 @@
+{
+  "menus":{
+    "menu": [
+      {
+        "nome": "Refrigerante 1L",
+        "valor": "R$ 3,50",
+        "descricao": "Refrigerante em garrafa retornável"
+      },
+      {
+        "nome": "Refrigerante 1,5L",
+        "valor": "R$ 5,50",
+        "descricao": "Refrigerante em garrafa retornável"
+      },
+      {
+        "nome": "Refrigerante 2L",
+        "valor": "R$ 7,50",
+        "descricao": "Refrigerante em garrafa retornável"
+      }
+    ]
+  }
+}
