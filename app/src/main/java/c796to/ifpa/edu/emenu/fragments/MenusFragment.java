@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import java.io.IOException;
 import java.util.List;
 
 import c796to.ifpa.edu.emenu.R;
@@ -71,9 +72,15 @@ public class MenusFragment extends BaseFragment {
     private void taskMenus()
     {
         //Busca os itens do menu pelo tipo
-        this.menus = MenuService.getMenus(getContext(), tipo);
-        //Atualiza a lista
-        recyclerView.setAdapter(new MenuAdapter(getContext(), menus, onClickMenu()));
+        try {
+            this.menus = MenuService.getMenus(getContext(), tipo);
+            //Atualiza a lista
+            recyclerView.setAdapter(new MenuAdapter(getContext(), menus, onClickMenu()));
+        }
+        catch (IOException e)
+        {
+
+        }
     }
 
     private MenuAdapter.MenuOnClickListener onClickMenu()
