@@ -1,0 +1,21 @@
+{
+  "menus":{
+    "menu": [
+      {
+        "nome": "Cerveja Skol 300ml",
+        "valor": "R$ 3,50",
+        "descricao": "Cerveja Skol lata de 300ml"
+      },
+      {
+        "nome": "Cerveja Stela 292ml",
+        "valor": "R$ 4,50",
+        "descricao": "Cerveja Stela lata de 292ml"
+      },
+      {
+        "nome": "Cerveja Draft 300ml",
+        "valor": "R$ 1,50",
+        "descricao": "Cerveja Draft lata de 300ml"
+      }
+    ]
+  }
+}
